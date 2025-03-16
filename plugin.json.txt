@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "name": "Light Novel Pub Extension",
+    "author": "Your Name",
+    "version": 1,
+    "source": "https://www.lightnovelpub.com",
+    "regexp": "https://www\.lightnovelpub\.com/novel/.*",
+    "description": "Extension to fetch novels from Light Novel Pub",
+    "locale": "en_US",
+    "language": "javascript",
+    "encrypt": true
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js",
+    "config": "config.js",
+    "comment": "comment.js"
+  }
+}
