@@ -1,14 +1,14 @@
 {
   "metadata": {
     "name": "Light Novel Pub Extension",
-    "author": "Your Name",
+    "author": "shadowlord07",
     "version": 1,
     "source": "https://www.lightnovelpub.com",
-    "regexp": "https://www\.lightnovelpub\.com/novel/.*",
+    "regexp": "https://www.lightnovelpub.com/novel/.*",
     "description": "Extension to fetch novels from Light Novel Pub",
     "locale": "en_US",
     "language": "javascript",
-    "encrypt": true
+    "encrypt": false
   },
   "script": {
     "home": "home.js",
@@ -17,7 +17,6 @@
     "search": "search.js",
     "toc": "toc.js",
     "chap": "chap.js",
-    "config": "config.js",
-    "comment": "comment.js"
+    "config": "config.js"
   }
 }
